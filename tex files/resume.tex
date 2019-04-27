@@ -1,0 +1,133 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+
+\name{Jakub Płotnikowski} 
+
+\address{\small \url{https://www.linkedin.com/in/jakub-plotnikowski} 
+\\ \small \url{https://github.com/jakubowiczish}}
+\address{(+48) 668 793 372 \\ plotnikowskijakub@gmail.com \\ Kraków}
+
+
+\begin{document}
+
+\begin{tikzpicture}[remember picture, overlay]
+  \node [anchor=north east, inner xsep=40pt, inner ysep=20pt]  at (current page.north east)
+     {\includegraphics[height=4cm]{PICTURE.jpg}};
+\end{tikzpicture}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}
+{Work Experience}
+\begin{rSubsection}
+{Schneider Electric}
+{Jun. 2017 - Jul. 2017}
+{Low-voltage apparatus fitter}
+
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf AGH University of Science and Technology} \hfill {Oct. 2017 - now} 
+\\ Faculty of Computer Science, Electronics and Telecommunications
+\\ Computer Science
+
+\end{rSection}
+
+%--------------------------------------------------------------------------------
+%    SKILLS
+%--------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+- Programming in object-oriented paradigm
+\\- Most experienced in working with Java and SQL
+\\- Basic knowledge of Python, C and C++
+\\- Tools and frameworks used: Git, JUnit, Mockito
+\\- Knowledge of SOLID mnemonic and clean code rules
+\\- Basic knowledge of algorithms and data structures
+\\- Soft skilled, hard-working, ambitious, willing to learn logical thinker
+\\- English – C1, FCE
+\end{rSection}
+
+
+%--------------------------------------------------------------------------------
+%    PROJECTS
+%--------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+
+\textbf{DiaBeFriend} - Android application for people with diabetes, written in Java. It provides user with features that
+help manage everyday life with this illness e.g. tracking sugar intake after meals, searching for food withappropriate nutritional data in existing database of products.
+
+ More info and source code on: \url{https://github.com/jakubowiczish/DiaBeFriend}
+
+\textbf{AirPollution} - Java console application that provides user with various information about air quality in Poland.
+
+\textbf{Conferences} – The objective of this project was to create the entire database that will manage the organization
+of various conferences - it required designing the database schema, ensuring database data integrity and
+implementing triggers, views, procedures, functions using SQL. To test the database, we wrote data generator in
+Python.
+
+\textbf{BibTeX parser} - Java console application that allows user to search and manipulate data that given BibTeX file
+contains.
+
+\end{rSection}
+
+%--------------------------------------------------------------------------------
+%    INTERESTS
+%--------------------------------------------------------------------------------
+
+\begin{rSection}{Interests}
+Meeting new people, electronic music, middle-distance running, astronomy, traveling, board games, computer games
+\end{rSection}
+
+%--------------------------------------------------------------------------------
+%    PERSONAL DATA PROCESSING AGREEMENT
+%--------------------------------------------------------------------------------
+
+\vfill
+\footnotesize „I agree to the processing of personal data provided in this document for realising the recruitment process
+pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in
+agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on
+the protection of natural persons with regard to the processing of personal data and on the free movement of
+such data, and repealing Directive 95/46/EC (General Data Protection Regulation)”.
+
+\end{document}
